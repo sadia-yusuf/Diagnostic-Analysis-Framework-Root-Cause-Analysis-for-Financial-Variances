@@ -1,0 +1,39 @@
+ROOT CAUSE ANALYSIS REPORT
+Generated : 2026-05-19 18:08
+=======================================================
+
+  Total Budget Revenue  : ₹16,429,376
+  Total Actual Revenue  : ₹16,236,567
+  Overall Variance      : ₹-192,809 (-1.2%)
+  
+--- Root Causes ---
+    [2023-01] Haircare: ₹-22,489 (-12.3%) | Primary driver: VOLUME shortfall (₹-15,105)
+    [2023-03] Haircare: ₹19,964 (+11.3%) | Primary driver: VOLUME uplift (₹18,725)
+    [2023-04] Bath & Body: ₹69,447 (+14.9%) | Primary driver: VOLUME uplift (₹49,051)
+    [2023-07] Haircare: ₹-189,927 (-30.4%) | Primary driver: VOLUME shortfall (₹-170,751)
+    [2023-08] Haircare: ₹-155,724 (-37.6%) | Primary driver: VOLUME shortfall (₹-132,128)
+    [2023-09] Haircare: ₹-183,780 (-32.1%) | Primary driver: VOLUME shortfall (₹-152,438)
+    [2023-10] Skincare: ₹97,352 (+18.0%) | Primary driver: VOLUME uplift (₹75,961)
+    [2023-11] Skincare: ₹75,548 (+18.7%) | Primary driver: VOLUME uplift (₹65,222)
+    [2023-12] Skincare: ₹104,001 (+21.0%) | Primary driver: VOLUME uplift (₹89,167)
+
+VARIANCE DECOMPOSITION SUMMARY
+  Volume Variance  : ₹-154,758  (Adverse)
+  Price  Variance  : ₹-38,051  (Adverse)
+  Mix    Variance  : ₹0  (Favourable)
+
+METHODOLOGY
+  Volume variance = (Actual Vol - Budget Vol) × Budget Price
+  Price  variance = (Actual Price - Budget Price) × Actual Vol
+  Mix    variance = Total variance - Volume variance - Price variance
+
+ASSUMPTIONS
+  1. Significant threshold: >10% deviation from budget (configurable).
+  2. Mix variance is a residual — avoids double-counting with volume/price.
+  3. Missing actual data treated as zero-revenue (flagged separately).
+  4. All variances calculated at category-month level before aggregation.
+
+CHARTS
+  output/charts/trend_vs_budget.png
+  output/charts/category_contribution.png
+  output/charts/waterfall_variance.png
